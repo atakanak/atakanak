@@ -13,7 +13,7 @@ const ATAKAN = {
         backEnd: {
             php: ["Laravel", "Wordpress"],
             js: ["Node", "Express"],
-            c#: ["ASP.NET Core", "Entity Framework", "Dapper", "SignalR", "Hangfire"],
+            csharp: ["ASP.NET Core", "Entity Framework", "Dapper", "SignalR", "Hangfire"],
         },
         devOps: ["Docker", "Nginx", "GitHub Actions"],
         databases: ["PostgreSQL", "SQLite", "redis"],
