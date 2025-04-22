@@ -1,18 +1,16 @@
 
-```javascript
-const ATAKAN = {
+```ts
+const ATAKAN: DeveloperProfile = {
     summary: "backend developer, but I can also be a bit of a fullstack.",
-    code: ["c#", "php", "javascript", "typescript"],
+    code: ["c#", "javascript", "typescript"],
     askMeAbout: ["web dev", "app dev", "tech trends"],
     technologies: {
         frontEnd: {
-            js: ["Angular", "React", "Next.js"],
+            js: ["Angular"],
             css: ["Tailwind", "Bootstrap"],
             uiLibraries: ["Material UI", "Ant Design"],
         },
         backEnd: {
-            php: ["Laravel", "Wordpress"],
-            js: ["Node", "Express"],
             csharp: ["ASP.NET Core", "Entity Framework", "Dapper", "SignalR", "Hangfire"],
         },
         devOps: ["Docker", "Nginx", "GitHub Actions"],
@@ -27,4 +25,5 @@ const ATAKAN = {
     currentFocus: "building scalable and high-performance web applications",
     funFact: "ekinler baş vermeden, kör buzağı topallamazmış. -turkish"
 };
+
 ```
